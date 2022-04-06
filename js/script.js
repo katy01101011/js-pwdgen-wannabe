@@ -15,10 +15,10 @@ const favouriteColor = prompt('Qual\'è il tuo colore preferito?')
 console.log(favouriteColor, typeof(favouriteColor));
 
 // 5. Generare password: 'nomecognomecolore21'
-const password = `La tua password è: ${userName}${userSurname}${favouriteColor}${number}`
-console.log(password)
+const password = passName + passSurname;
+console.log(password);
 
 // 6. Visualizzare password sulla pagina WEB
-document.getElementById('your-password').innerHTML = password
+document.getElementById('your-password').innerHTML = password;
 
 
