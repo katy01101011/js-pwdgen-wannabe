@@ -7,6 +7,12 @@ const userName = prompt('Qual\'è il tuo nome?')
 console.log(userName, typeof(userName));
 
 // 2.a Se il nome è lungo almeno 6 lettere, prendi i primi 3 caratteri pari
+if (userName < 6) {
+    greeting = "Good day";
+  } else {
+    longName = "userName";
+  }
+
 // 2.a.a Rendi il secondo carattere maiuscolo
 
 // 2.b Altrimenti prendi tutto il nome
